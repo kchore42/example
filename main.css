@@ -21,11 +21,16 @@ section {
     padding: 10px;
     box-sizing: border-box;
 }
+main{
+    display: flex;
+}
 section h1 {
 
 }
 article {
-
+    background: yellowgreen;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 article h2 {
 
@@ -33,15 +38,25 @@ article h2 {
 article p {
 
 }
-asdie {
-
+aside {
+    width: 30%;
+    background: tomato;
+    margin: 10px;
+    padding:  20px;
+    box-sizing: border-box;
 }
 footer {
+    place-self: absolute;
+    left: 0px;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    background-color: red;
 
 }
 footer address {
 
 }
 footer adress a {
-
+    display: block;
 }
